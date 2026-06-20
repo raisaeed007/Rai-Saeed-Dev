@@ -1,0 +1,30 @@
+/* h2{
+    background-color: aqua;
+    font-size: larger;
+    border: 0cm;
+} */
+
+/* id selection */
+/* #first{
+    background-color: aqua;
+}
+#second{
+    background-color: brown;
+}
+#order{
+    background-color: blanchedalmond;
+}
+#unorder{
+    background-color: aquamarine;
+} */
+
+/* class selection */
+.first{
+    background-color: aqua;
+    font-weight: 400px;
+}
+.first{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
