@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(6, 105, 22);
+    top: 200px;
+    box-shadow: 20px 20px 5px 5px white;
+    box-shadow: 0px 0px 30px 0px red;
+    border-radius: 100px;
+}

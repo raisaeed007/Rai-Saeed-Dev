@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px;
+    position: relative;
+}
+
+#box{
+    height: 70px;
+    width: 120px;
+    background-color: blueviolet;
+    animation-name: moving;
+    animation-duration: 4s;
+    position: absolute;
+    animation-delay: initial;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5s;
+}
+
+@keyframes moving {
+    from{
+        background-color: brown;
+        top: 10px;
+        left: 10px;
+    }
+    to{
+        background-color: bisque;
+        top: 10px;
+        left: 500px;
+    }
+}

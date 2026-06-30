@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    height: 400px;
+    width: 100p;
+    background-color: chocolate;
+}
+
+@media screen and (max-width:800px)  {
+    .container{
+        height: 800px;
+        width: 800px;
+        grid-template-columns: 1fr,1fr;
+        grid-template-rows: 1fr,1fr;
+    }
+}
